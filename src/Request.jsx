@@ -10,12 +10,12 @@ const Request = (props) => {
             axios.get('/api/hello').then((res) => {
                 console.log(res);
                 setData(res.data);
-            })    
+            })
         }, 1000);
         
     }, [])
 
-    return (<h1>{data}</h1>); // 값에 따라 전송 실패 or 전송 성공 출력 
+    return (<h1>{data}</h1>);
 }
 
 export default Request;

@@ -6,6 +6,7 @@ import Request from './Request.jsx';
 import Day02A1 from './Day02/Day02A1.jsx';
 // import Console from './Day03/Console.jsx';
 import PromiseExam from './Day06/PromiseExam.jsx';
+import PromiseAsync from './Day06/PromiseAsync.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +24,10 @@ root.render(
 // Console.trace()
 
 // PromiseExam.callback()
-PromiseExam.callbackFunc()
+// PromiseExam.callbackFunc()
 // PromiseExam.promise()
 // PromiseExam.promiseCatch()
 // PromiseExam.promiseThen()
+
+// PromiseAsync.promise()
+PromiseAsync.prominseAsync()

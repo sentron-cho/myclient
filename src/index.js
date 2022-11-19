@@ -5,6 +5,7 @@ import App from './App';
 import Request from './Request.jsx';
 import Day02A1 from './Day02/Day02A1.jsx';
 // import Console from './Day03/Console.jsx';
+import SpreadExam from './Day05/SpreadExam.jsx';
 import PromiseExam from './Day06/PromiseExam.jsx';
 import PromiseAsync from './Day06/PromiseAsync.jsx';
 
@@ -16,6 +17,10 @@ root.render(
     <Day02A1 />
   </React.StrictMode>
 );
+
+// SpreadExam.exam01()
+// SpreadExam.exam02()
+SpreadExam.exam03()
 
 // Console.time()
 // Console.log()
@@ -30,4 +35,4 @@ root.render(
 // PromiseExam.promiseThen()
 
 // PromiseAsync.promise()
-PromiseAsync.prominseAsync()
+// PromiseAsync.prominseAsync()
